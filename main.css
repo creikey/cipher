@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(215, 215, 255);
+}
+
+hr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    outline: none;
+    border-style: none;
+    background-color: rgb(54, 54, 155);
+}
+
+.instruction {
+    font-size: 35px;
+    text-align: center;
+}
+
+.instruction-area {
+    background-color: rgb(142, 142, 255);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.inp {
+    color: black;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 30px;
+}
+
+.input-area {
+    background-color: #4444B2;
+    padding: 10px;
+}
+
+.output-area {
+    background-color: #4444B2;
+    padding: 10px;
+    border-left: solid rgb(88, 127, 255) 30px;
+    border-right: solid rgb(88, 127, 255) 30px;
+    height: 100%;
+}
+
+#output {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .instruction-s {
+        margin-top: 50px;
+        font-size: 100px;
+    }
+
+    .inp-s {
+        font-size: 40px;
+        width: 800px;
+    }
+
+    .input-area-s {
+        padding: 100px;
+    }
+}
